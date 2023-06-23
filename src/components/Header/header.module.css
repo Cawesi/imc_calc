@@ -1,0 +1,49 @@
+.header {
+    margin-top: 3em;
+}
+
+.titulo_header {
+    text-align: center;
+
+}
+
+.descricao_imc {
+    font-size: .8em;
+    text-align: center;
+}
+
+.mensagem_advertencia {
+    margin-top: 2em;
+    padding: 16px 0;
+    background-color: #DBE4EE;
+
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+.mensagem_p1 {
+    padding: 0 24px;
+}
+
+.mensagem_sobre_beneficios {
+    font-size: .9em;
+    text-align: center;
+}
+
+.mensagem_sobre {
+    font-size: .9em;
+    text-align: center;
+}
+
+.mensagem_aviso {
+    color: red;
+    font-size: .7em;
+    font-weight: bold;
+    text-align: center;
+
+    margin-top: 1.5em;
+    padding: 0 24px;
+}

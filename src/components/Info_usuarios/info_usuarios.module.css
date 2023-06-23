@@ -1,0 +1,108 @@
+.formulario {
+    margin-top: 2em;
+    padding: 16px; 
+}
+
+.subtitulo_formulario {
+    font-size: 1em;
+    text-align: center;
+
+    margin-bottom: 3em;
+}
+
+.subtitulo_formulario > a {
+    text-decoration: none;
+}
+
+.imc_oficial {
+
+}
+
+.imc_oficial:hover  {
+    text-decoration: underline;
+}
+
+.container_sides {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.formulario_lado_esquerdo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.image_person {
+    width: 150px;
+}
+
+.escolhaSexoEspaco {
+    margin-right: 8px;
+
+    font-size: 0.7em;
+    font-weight: bold;
+}
+
+.escolha {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.selectSexo {
+    width: 100px;
+}
+
+.idadeUsuario {
+    
+}
+
+.formulario_lado_direito {
+    
+}
+
+.inputInfos {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+
+    margin-bottom: 2em;
+}
+
+.containerBotaoCalcular {
+    text-align: center;
+}
+
+.botaoCalcular {
+    width: 150px;
+    padding: 2px;
+    font-weight: bold;
+
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.imgTab {
+    width: 550px;
+}
+
+.tabImc {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.respostaImc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 32px;
+
+    font-weight: bold;
+}
